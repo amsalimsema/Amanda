@@ -6,12 +6,13 @@ import landing from '../Images/now.jpg'
 // general link
 
 export const GenLink = styled(Link)`
-  color: #fff;
+  color: #885c44;
   text-decoration: none;
-  padding: 0rem 1rem;
+  padding: 0rem 0rem;
   &:hover {
     text-decoration: none;
-    color: #5b92e5;
+    color: #885c44;
+    border-bottom: 3px solid #885c44;
   }
 `
 
@@ -56,7 +57,9 @@ export const ConsultBtn = styled(Button)`
 `
 // mobile drawer button for hopes
 export const ConsultBtnMob = styled(Button)`
-  background-color: #5b92e5;
+  font-size: 1rem;
+  background-color: #885c44;
+  border-radius: 3rem;
   border: 0;
-  padding: 0.7rem 0.7rem;
+  padding: 0.7rem 2rem;
 `

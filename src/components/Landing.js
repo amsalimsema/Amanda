@@ -1,7 +1,8 @@
 import React from 'react'
+// import { motion } from 'framer-motion'
 //import Container from 'react-bootstrap/Container'
 
-import styled from 'styled-components'
+import styled, { keyframes } from 'styled-components'
 import { Bg, ConsultBtn } from './Global'
 //import logo from '../logo.svg'
 
@@ -14,15 +15,31 @@ const LandingBg = styled(Bg)`
 `
 
 const Box = styled.div`
-  color: #885c44;
   text-align: center;
+  color: #885c44;
   > h1 {
-    font-size: 8vw;
-    line-height: 8vh;
+    font-size: 7vw;
+    line-height: 7vh;
     @media only screen and (max-width: 600px) {
       font-size: 3rem;
     }
   }
+`
+
+// Create the keyframes
+const rotate = keyframes`
+  from {
+    color: #ffe8d6;
+  }
+
+  to {
+    color: #885c44;
+  }
+`
+
+// Here we create a component that will rotate everything we pass in over two seconds
+const Rotate = styled.div`
+  animation: ${rotate} 3s linear infinite;
 `
 
 export default function Landing() {
@@ -30,9 +47,9 @@ export default function Landing() {
     <>
       <LandingBg>
         <Box>
-          <h5 className="pb-2">PLANET</h5>
-          <h1>EARTH</h1>
-
+          <h1>
+            <Rotate>MAAEMO</Rotate>
+          </h1>
           <hr
             style={{
               width: '100px',
@@ -41,10 +58,15 @@ export default function Landing() {
               marginTop: '30px',
             }}
           />
-          <p className="pb-2">SOLUTIONS FOR A SUSTAINABLE FUTURE</p>
-          <p style={{ fontSize: '18px' }}>
-            Dedicated To Transforming Business To Create A More Sustainable
-            Future For All
+          <h5 className="pb-2">ENTERPRISES</h5>
+          <p
+            className="pb-2"
+            style={{ fontFamily: 'Cookie, cursive', fontSize: '3rem' }}
+          >
+            Investing in sustainable solutions for africa
+          </p>
+          <p style={{ fontSize: '18px' }} className="font-weight-bold">
+            Agriculture + Manufacturing + Sustainablity = Self Reliant Africa
           </p>
           <ConsultBtn>
             <p>GET STARTED</p>
