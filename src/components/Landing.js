@@ -15,6 +15,7 @@ const LandingBg = styled(Bg)`
 `
 
 const Box = styled.div`
+  margin-top: 3rem;
   text-align: center;
   color: #885c44;
   > h1 {
@@ -59,13 +60,13 @@ export default function Landing() {
             }}
           />
           <h5 className="pb-2">ENTERPRISES</h5>
-          <p
-            className="pb-2"
-            style={{ fontFamily: 'Cookie, cursive', fontSize: '3rem' }}
-          >
+          <h5 style={{ fontStyle: 'italic' }}>
             Investing in sustainable solutions for africa
-          </p>
-          <p style={{ fontSize: '18px' }} className="font-weight-bold">
+          </h5>
+          <p
+            style={{ fontSize: '18px', fontStyle: 'italic' }}
+            className="font-weight-bold"
+          >
             Agriculture + Manufacturing + Sustainablity = Self Reliant Africa
           </p>
           <ConsultBtn>
