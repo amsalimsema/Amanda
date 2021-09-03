@@ -16,7 +16,5 @@ body {
   z-index: 999;
 }
 .MobileNav.active {
-  /* background-color: #d4c7b0; */
   background-color: #3f4238;
-  opacity: 97%;
 }

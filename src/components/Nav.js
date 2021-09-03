@@ -37,7 +37,7 @@ export default function NavTop() {
   return (
     <>
       <div className={MobileNav ? 'MobileNav active' : 'MobileNav'}>
-        <IconContext.Provider value={{ color: '#885c44' }}>
+        <IconContext.Provider value={{ color: ' #ffe8d6' }}>
           <Nav>
             <NavbarContainer>
               <NavLogo to="/" onClick={closeMobileMenu}>

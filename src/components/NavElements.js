@@ -59,7 +59,7 @@ export const NavMenu = styled.ul`
     right: ${({ click }) => (click ? 0 : '-100%')};
     opacity: 1;
     transition: all 0.3s ease;
-    background-color: #ffe8d6;
+    background-color: #885c44;
     // margin-top: 0px;
     margin-top: 10px;
   }
@@ -76,7 +76,7 @@ export const NavMenu = styled.ul`
     right: ${({ click }) => (click ? 0 : '-100%')};
     opacity: 1;
     transition: all 0.5s ease;
-    background-color: #ffe8d6;
+    background-color: #885c44;
   }
   @media screen and (min-width: 1024px) {
     margin-top: 3rem;
