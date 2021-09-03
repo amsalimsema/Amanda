@@ -9,6 +9,7 @@ import consult from '../Images/consulting.png'
 import sustain from '../Images/planet-earth.png'
 
 const Wrap = styled(Container)`
+  width: 100vw;
   padding: 4rem 0;
   > h4 {
     color: #ffe8d6;
@@ -21,7 +22,7 @@ const Box = styled.div`
   transition: 0.8s ease-in-out;
   cursor: pointer;
   @media only screen and (max-width: 600px) {
-    box-shadow: 0px 10px #885c44;
+    box-shadow: none;
   }
   &:hover {
     transform: translateY(2px);

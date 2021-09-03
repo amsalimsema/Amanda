@@ -11,7 +11,7 @@ const Wrap = styled(Container)`
   cursor: pointer;
   transition: 0.8s ease-in-out;
   @media only screen and (max-width: 600px) {
-    box-shadow: 0px 10px #885c44;
+    box-shadow: none;
   }
 
   &:hover {
@@ -36,7 +36,7 @@ export default function About() {
             &#8212;&nbsp;COMPANY&nbsp;&#8212;
           </h4>
           <Wrap>
-            <div className="py-4 px-1">
+            <div className="py-4">
               <p>
                 <span className="font-weight-bold"> Maaemo Enterprises</span> is
                 an investment company registered in Kampala, Uganda that offers
