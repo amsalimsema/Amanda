@@ -20,6 +20,9 @@ const Box = styled.div`
   box-shadow: 5px 10px #885c44;
   transition: 0.8s ease-in-out;
   cursor: pointer;
+  @media only screen and (max-width: 600px) {
+    box-shadow: 0px 10px #885c44;
+  }
   &:hover {
     transform: translateY(2px);
   }
