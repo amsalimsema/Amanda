@@ -10,8 +10,9 @@ const LandingBg = styled(Bg)`
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100vw;
+  // width: 100vw;
   height: 100vh;
+  // margin-bottom: 5rem;
 `
 
 const Box = styled.div`
@@ -50,7 +51,7 @@ export default function Landing() {
       <LandingBg>
         <Box>
           <h1>
-            <Rotate>MAAEMO</Rotate>
+            <Rotate>Maaemo</Rotate>
           </h1>
           <hr
             style={{
@@ -64,14 +65,11 @@ export default function Landing() {
           <h5 style={{ fontStyle: 'italic' }}>
             Investing in sustainable solutions for africa
           </h5>
-          <p
-            style={{ fontSize: '18px', fontStyle: 'italic' }}
-            className="font-weight-bold"
-          >
+          <p style={{ fontSize: '18px' }} className="font-weight-normal">
             Agriculture + Manufacturing + Sustainablity = Self Reliant Africa
           </p>
           <ConsultBtn>
-            <p>GET STARTED</p>
+            <p>GET IN TOUCH</p>
           </ConsultBtn>
         </Box>
       </LandingBg>

@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { FaBars, FaTimes } from 'react-icons/fa'
 import { IconContext } from 'react-icons/lib'
-import logo from '../logo.svg'
+import logo from '../logo192.png'
 import '../App.css'
 
 import {
@@ -52,45 +52,28 @@ export default function NavTop() {
               </MobileIcon>
 
               <NavMenu onClick={handleClick} click={click}>
-                {/* <NavItem>
-                  <GenLink
-                    to="/"
-                    onClick={closeMobileMenu}
-                    style={{ textDecoration: 'none' }}
-                  >
-                    HOME
-                  </GenLink>
-                </NavItem> */}
                 <NavItem>
                   <NavLinks
-                    href="/"
+                    href="/#services"
                     onClick={closeMobileMenu}
                     style={{ textDecoration: 'none' }}
                   >
-                    <h6>INVESTMENTS</h6>
+                    <h6>SERVICES</h6>
                   </NavLinks>
                 </NavItem>
                 <NavItem>
                   <NavLinks
-                    href="/"
+                    href="/#clients"
                     onClick={closeMobileMenu}
                     style={{ textDecoration: 'none' }}
                   >
-                    <h6>CONSULTING</h6>
+                    <h6>CLIENTS</h6>
                   </NavLinks>
                 </NavItem>
+
                 <NavItem>
                   <NavLinks
-                    href="/"
-                    onClick={closeMobileMenu}
-                    style={{ textDecoration: 'none' }}
-                  >
-                    <h6>SUSTAINABILITY</h6>
-                  </NavLinks>
-                </NavItem>
-                <NavItem>
-                  <NavLinks
-                    href="/"
+                    href="/#about"
                     onClick={closeMobileMenu}
                     style={{ textDecoration: 'none' }}
                   >

@@ -100,7 +100,8 @@ export const NavItemBtn = styled.li`
 `
 
 export const NavLinks = styled.a`
-  color: #885c44;
+  color: #ffe8d6;
+  // color: #885c44;
   display: flex;
   align-items: center;
   text-decoration: none;
@@ -112,8 +113,8 @@ export const NavLinks = styled.a`
     width: 100%;
     display: table;
     &:hover {
-      color: #ffe8d6;
-      //   border-bottom: 3px solid #885c44;
+      // color: #ffe8d6;
+      color: #885c44;
       text-decoration: none;
     }
   }

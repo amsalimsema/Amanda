@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap'); */
 html,
 body {
   margin: 0;
@@ -16,5 +16,7 @@ body {
   z-index: 999;
 }
 .MobileNav.active {
-  background-color: transparent;
+  /* background-color: #d4c7b0; */
+  background-color: #3f4238;
+  opacity: 97%;
 }
