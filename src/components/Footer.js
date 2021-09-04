@@ -15,29 +15,30 @@ import {
 } from 'react-icons/fa'
 
 const Wrap = styled(Container)`
+  width: 90vw;
   padding: 3rem 0 1rem 0;
   color: #ffe8d6;
 `
 
-const Tsup = styled(FaWhatsapp)`
+export const Tsup = styled(FaWhatsapp)`
   color: #ffe8d6;
   &:hover {
     color: #3f4238;
   }
 `
-const FB = styled(FaFacebookF)`
+export const FB = styled(FaFacebookF)`
   color: #ffe8d6;
   &:hover {
     color: #3f4238;
   }
 `
-const Tube = styled(FaYoutube)`
+export const Tube = styled(FaYoutube)`
   color: #ffe8d6;
   &:hover {
     color: #3f4238;
   }
 `
-const Gram = styled(FaInstagram)`
+export const Gram = styled(FaInstagram)`
   color: #ffe8d6;
   &:hover {
     color: #3f4238;

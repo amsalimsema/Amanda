@@ -9,7 +9,7 @@ import consult from '../Images/consulting.png'
 import sustain from '../Images/planet-earth.png'
 
 const Wrap = styled(Container)`
-  width: 100vw;
+  width: 91vw;
   padding: 4rem 0;
   > h4 {
     color: #ffe8d6;
@@ -22,7 +22,7 @@ const Box = styled.div`
   transition: 0.8s ease-in-out;
   cursor: pointer;
   @media only screen and (max-width: 600px) {
-    box-shadow: none;
+    box-shadow: 0px 10px #885c44;
   }
   &:hover {
     transform: translateY(2px);
@@ -40,8 +40,10 @@ export default function Services() {
           <Row>
             <Col md={4} className="pb-1">
               <Box>
-                <div className="p-1">
-                  <p className="text-center font-weight-bold">INVESTMENTS</p>
+                <div className="pb-1">
+                  <p className="text-center font-weight-bold pt-1">
+                    INVESTMENTS
+                  </p>
                   <p className="p-5">
                     <img src={invest} alt="investments" className="w-100" />
                   </p>
@@ -61,8 +63,10 @@ export default function Services() {
             </Col>
             <Col md={4} className="pb-1">
               <Box>
-                <div className="p-1">
-                  <p className="text-center font-weight-bold">CONSULTING</p>
+                <div className="pb-1">
+                  <p className="text-center font-weight-bold pt-1">
+                    CONSULTING
+                  </p>
                   <p className="p-5">
                     <img src={consult} alt="consulting" className="w-100" />
                   </p>
@@ -88,8 +92,10 @@ export default function Services() {
             </Col>
             <Col md={4} className="pb-1">
               <Box>
-                <div className="p-1">
-                  <p className="text-center font-weight-bold">SUSTAINABILITY</p>
+                <div className="pb-1">
+                  <p className="text-center font-weight-bold pt-1">
+                    SUSTAINABILITY
+                  </p>
                   <p className="p-5">
                     <img src={sustain} alt="sustainability" className="w-100" />
                   </p>

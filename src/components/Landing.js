@@ -16,7 +16,7 @@ const LandingBg = styled(Bg)`
 `
 
 const Box = styled.div`
-  margin-top: 10rem 0.5rem 0 0.5rem;
+  margin-top: 10rem 0.7rem 0 0.7rem;
   padding-top: 2rem;
   text-align: center;
   color: #885c44;

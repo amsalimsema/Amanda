@@ -132,12 +132,12 @@ export const NavBtnLink = styled(Link)`
   outline: none;
   margin-left: 3rem;
 `
-// drawer only for hopes
+// drawer only for Maaemo
 
 export const Drawer = styled.div`
   margin-top: 3rem;
   text-align: start;
-  padding-left: 1rem;
+
   color: #fff;
   line-height: normal;
   @media only screen and (min-width: 769px) {

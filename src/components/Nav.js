@@ -12,9 +12,10 @@ import {
   NavMenu,
   NavItem,
   NavLinks,
+  Drawer,
 } from './NavElements'
-// import { Call, Envelope, Map } from './Contact'
-// import { ConsultBtnMob} from './Global'
+
+import { Tube, Tsup, Gram, FB } from './Footer'
 
 export default function NavTop() {
   // open and close drawer
@@ -80,6 +81,49 @@ export default function NavTop() {
                     <h6>COMPANY</h6>
                   </NavLinks>
                 </NavItem>
+
+                <Drawer>
+                  <div>
+                    <a
+                      href="https://wa.me/256760721071/?text=Hello Maaemo Enterprises"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      title="WhatsApp"
+                    >
+                      <Tsup style={{ width: '1.5rem', height: '1.5rem' }} />
+                    </a>
+
+                    <a
+                      href="/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      title="Facebook"
+                      style={{ paddingLeft: '1rem' }}
+                    >
+                      <FB style={{ width: '1.5rem', height: '1.5rem' }} />
+                    </a>
+
+                    <a
+                      href="/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      title="YouTube"
+                      style={{ paddingLeft: '1rem' }}
+                    >
+                      <Tube style={{ width: '1.5rem', height: '1.5rem' }} />
+                    </a>
+
+                    <a
+                      href="/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      title="Instagram"
+                      style={{ paddingLeft: '1rem' }}
+                    >
+                      <Gram style={{ width: '1.5rem', height: '1.5rem' }} />
+                    </a>
+                  </div>
+                </Drawer>
               </NavMenu>
             </NavbarContainer>
           </Nav>

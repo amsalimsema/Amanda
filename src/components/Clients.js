@@ -7,6 +7,7 @@ import Col from 'react-bootstrap/Col'
 import invest from '../Images/logo192.png'
 
 const Wrap = styled(Container)`
+  width: 90vw;
   padding: 6rem 0 6rem 0;
   > h4 {
     color: #ffe8d6;

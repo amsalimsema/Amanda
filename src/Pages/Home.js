@@ -18,7 +18,9 @@ export default function Home() {
       <div id="clients">
         <Clients />
       </div>
-      <Footer />
+      <div>
+        <Footer />
+      </div>
     </>
   )
 }
