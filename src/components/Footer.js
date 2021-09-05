@@ -16,39 +16,39 @@ import {
 
 const Wrap = styled(Container)`
   width: 90vw;
-  padding: 3rem 0 1rem 0;
+  padding: 8rem 0 1rem 0;
   color: #ffe8d6;
 `
 
 export const Tsup = styled(FaWhatsapp)`
   color: #ffe8d6;
   &:hover {
-    color: #3f4238;
+    color: #6b705c;
   }
 `
 export const FB = styled(FaFacebookF)`
   color: #ffe8d6;
   &:hover {
-    color: #3f4238;
+    color: #6b705c;
   }
 `
 export const Tube = styled(FaYoutube)`
   color: #ffe8d6;
   &:hover {
-    color: #3f4238;
+    color: #6b705c;
   }
 `
 export const Gram = styled(FaInstagram)`
   color: #ffe8d6;
   &:hover {
-    color: #3f4238;
+    color: #6b705c;
   }
 `
 
 export default function Footer() {
   return (
     <>
-      <div style={{ backgroundColor: '#885c44' }}>
+      <div style={{ backgroundColor: '#3f4238', position: 'relative' }}>
         <Wrap>
           <Row>
             <Col md={4} className="text-center">
@@ -134,6 +134,20 @@ export default function Footer() {
             &copy;{new Date().getFullYear()}&nbsp;Maaemo Enterprises.
           </p>
         </Wrap>
+
+        <div className="custom-shape-divider-top-1630839795">
+          <svg
+            data-name="Layer 1"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 1200 120"
+            preserveAspectRatio="none"
+          >
+            <path
+              d="M1200 120L0 16.48 0 0 1200 0 1200 120z"
+              className="shape-fill"
+            ></path>
+          </svg>
+        </div>
       </div>
     </>
   )

@@ -8,11 +8,11 @@ const Wrap = styled(Container)`
   padding: 4rem auto 0rem auto;
   border-radius: 2rem;
   background-color: #ffe8d6;
-  box-shadow: 5px 10px #885c44;
+  box-shadow: 5px 10px #3f4238;
   cursor: pointer;
   transition: 0.8s ease-in-out;
   @media only screen and (max-width: 600px) {
-    box-shadow: 0px 10px #885c44;
+    box-shadow: 0px 10px #3f4238;
   }
 
   &:hover {
@@ -31,8 +31,8 @@ const Wrap = styled(Container)`
 export default function About() {
   return (
     <>
-      <div style={{ backgroundColor: '#3f4238' }}>
-        <div style={{ padding: '5.5rem 0' }}>
+      <div style={{ backgroundColor: '#6B705C' }}>
+        <div style={{ padding: '5.5rem 0 5.5rem 0' }}>
           <h4 className="text-center pb-3" style={{ color: '#ffe8d6' }}>
             &#8212;&nbsp;COMPANY&nbsp;&#8212;
           </h4>
